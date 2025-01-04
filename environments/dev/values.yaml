@@ -1,0 +1,9 @@
+frontend:
+  image:  
+    repository: "058264527754.dkr.ecr.us-east-1.amazonaws.com/movie_app_repo"
+    tag: "latest"
+
+backend:
+  image: 
+    repository: "058264527754.dkr.ecr.us-east-1.amazonaws.com/movie_app_repo"
+    tag: "latest"
