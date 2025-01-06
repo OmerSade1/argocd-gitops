@@ -30,3 +30,6 @@ backend:
   ingress:
     host: "backend.omsad.xyz"
     path: "/movies"
+  dbSecret:
+    path: "movie-app/db-credentials"
+    region: us-east-1
