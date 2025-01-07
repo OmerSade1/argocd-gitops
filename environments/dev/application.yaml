@@ -8,12 +8,12 @@ spec:
   sources: 
   - repoURL: https://github.com/OmerSade1/Movie-app
     path: movie
-    targetRevision: HEAD
+    targetRevision: dev
     helm:
       valueFiles:
       - $values/environments/dev/values.yaml
   - repoURL: https://github.com/OmerSade1/argocd-gitops
-    targetRevision: HEAD
+    targetRevision: main
     ref: values
   destination: 
     server: https://kubernetes.default.svc
