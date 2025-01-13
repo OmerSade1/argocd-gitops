@@ -1,6 +1,6 @@
 frontend:
   image:
-    replicas: 2
+    replicas: 1
     repository: 058264527754.dkr.ecr.us-east-1.amazonaws.com/movie_app_repo
     tag: frontend-9613e40
     containerPort: 80
@@ -17,7 +17,7 @@ frontend:
 
 backend:
   image:
-    replicas: 3
+    replicas: 1
     repository: 058264527754.dkr.ecr.us-east-1.amazonaws.com/movie_app_repo
     tag: backend-9613e40
     containerPort: 5000
